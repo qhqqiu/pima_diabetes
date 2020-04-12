@@ -28,13 +28,13 @@ But compared to Titanic, I tried a couple of new things: data visualization tech
 
 7. Fit the optimized model to train data.
 
-6. Loading test data
+8. Loading test data
 
-7. Preprocessing test data 
+9. Preprocessing test data 
 * same as part of step 3
 
-8. Implementing model on test data
+10. Implementing model on test data
 
-9. Loading prediction results to a csv file
+11. Loading prediction results to a csv file
 
   
