@@ -24,7 +24,7 @@ But compared to Titanic, I tried a couple of new things: data visualization tech
 * I tried different numbers of folds here. Turned out SVC had the best score, and other models' score did not vary too much. Because at that time I was focusing on decision tree, so I chose to continue with decision tree model.
 
 6. Optimizing parameters of decision tree using GridSearchCV. 
-* Results returned that best score of 0.739331 using {'criterion': 'gini', 'max_depth': 5}
+* Results returned that best score of 0.739331 using gini index and setting 'max_depth' at 5.
 
 7. Fit the optimized model to train data.
 
