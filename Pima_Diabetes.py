@@ -90,7 +90,7 @@ grid= GridSearchCV(DecisionTreeClassifier(), tree_para, cv=5)
 #GridSearchCV: Exhaustive search over specified parameter values for an estimator. 
 
 grid.fit(X, y)
-#print("Best: %f using %s" % (results.best_score_, results.best_params_))
+print("Best: %f using %s" % (grid.best_score_, grid.best_params_))
 
 dataset_test = pd.read_csv("test.csv")
 dataset_test.head()
